@@ -11,13 +11,8 @@ body {
 .container-fluid {
   background-image: url("attachments/ignasi_pattern_s.png");
   min-height: auto;
+  display: flex;
   position: relative;
-}
-
-.main {
-  overflow: auto;
-  padding-bottom: 200px;
-  vertical-align: text-top;
 }
 
 .navbar-brand.navbar-brand {
@@ -25,19 +20,33 @@ body {
 }
 
 h1 {
-  color: white;
-  text-align: center;
+  color: rgb(18, 159, 149);
+  text-align: left;
   z-index: 100;
   position: relative;
+  margin-left: 20px;
 }
 
 p {
-  color: white;
+  text-align: justify;
+  color: black;
   text-align: center;
   z-index: 100;
   position: relative;
+  margin-left: 10px;
 }
 
+.card {
+  margin-left: 20px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  vertical-align: text-top;
+  flex: auto;
+  overflow: auto;
+  background-color: white;
+  float: right;
+  margin: 10px;
+}
 .page_footer {
   padding-top: 10px;
   background-color: rgb(18, 159, 149);
@@ -48,6 +57,10 @@ p {
   background-color: rgb(83, 83, 83);
   position: relative;
   height: 100px;
-  margin-top: -100px;
-  clear: both;
+}
+
+.mypicture {
+  width: 20px;
+  height: 20px;
+  object-fit: scale-down;
 }
