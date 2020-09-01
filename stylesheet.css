@@ -8,8 +8,10 @@ body {
   height: 100%;
 }
 
-#container {
-  min-height: 100%;
+.container,
+.container-fluid {
+  background-image: url("attachments/ignasi_pattern_s.png");
+  min-height: 400px;
 }
 
 #main {
