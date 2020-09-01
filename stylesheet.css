@@ -27,9 +27,7 @@ body {
 .navbar-brand.navbar-brand {
   color: white;
 }
-
-.footer {
-  margin-top: 100px;
-  padding-top: 100px;
-  background-color: blue;
+.page_footer {
+  padding-top: 10px;
+  background-color: rgb(18, 159, 149);
 }
