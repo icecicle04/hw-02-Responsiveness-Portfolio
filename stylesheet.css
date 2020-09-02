@@ -27,6 +27,12 @@ p {
   float: left;
   margin-top: 15%;
 }
+
+.btn.btn-primary {
+  background-color: rgb(18, 159, 149);
+  margin-left: 5px;
+}
+
 .accent_footer {
   background-color: rgb(18, 159, 149);
   position: absolute;
