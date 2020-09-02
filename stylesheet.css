@@ -11,15 +11,14 @@
 h1 {
   color: rgb(18, 159, 149);
   text-align: left;
-  z-index: 100;
   position: relative;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 p {
   color: black;
   margin-left: 10px;
-  margin-top: -5%;
+  margin-top: -6%;
   word-wrap: break-word;
 }
 
@@ -42,6 +41,11 @@ p {
   width: 100%;
 }
 
+.copyright {
+  text-align: center;
+  margin-top: 7px;
+  color: rgb(86, 93, 100);
+}
 img {
   margin-left: 10px;
   float: left;
