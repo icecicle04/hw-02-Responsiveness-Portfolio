@@ -7,7 +7,7 @@
   min-height: 95.8vh;
   background-image: url("attachments/ignasi_pattern_s.png");
 }
-
+/* all headers */
 h1 {
   color: rgb(18, 159, 149);
   text-align: left;
@@ -22,21 +22,24 @@ p {
   margin-right: 5px;
   word-wrap: break-word;
 }
-
+/* all cards */
 .card {
   max-width: 100%;
   float: left;
   margin-top: 15%;
 }
+/* about me image */
 .justme {
   margin-left: 10px;
   float: left;
   padding-right: 5%;
 }
-
+/* portfolio images */
 img {
   margin-bottom: 20px;
+  width: 100%;
 }
+/* submit message button */
 .btn.btn-primary {
   background-color: rgb(18, 159, 149);
   margin-left: 5px;
